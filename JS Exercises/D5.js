@@ -12,17 +12,42 @@ REGOLE
 */
 const pets = ['dog', 'cat', 'hamster', 'redfish']
 
+
+// SOLUZIONE ESERCIZIO 1 
+
+for (let i = 0; i < pets.length; i++) {
+  console.log(pets)
+}
+
+
+
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
+
+// SOLUZIONE ESERCIZIO 2
+
+pets.sort()
+console.log("sort:", pets)
+
+
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
+for (let i = 0; i < pets.length; i++) {
+  let reversed = pets.reverse()
+  console.log("reverse:", reversed)
+}
+
+
+
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+
+
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
