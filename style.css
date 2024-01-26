@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1800px;
+}
+
+/* REGOLE GENERALI */
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+a {
+    font-size: 0.8rem;
+    font-size: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+#amazon-webpage-general-container section {
+    max-width: 1450px;
+    min-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+/* DIV LOGO */
+
+#logo {
+    background-color: #2f3243f9;
+    padding: 0.5rem 0;
+}
+
+#logo-img-container {
+    width: 7.5rem;
+    margin-left: 1.5rem;
+}
+
+
+/* BARRA DI NAVIGAZIONE */
+
+#navigation-bar {
+    color: white;
+    background-color: #4d5370f9;
+    padding: 0.2rem 0;
+}
+
+#navigation-bar span {
+    font-size: 0.8rem;
+    margin-right: 0.6rem;
+    cursor: pointer;
+}
+ 
+#navigation-bar > span:nth-child(1) {
+    margin-left: 1.5rem;
+}
+
+
+/* DIV CONTENITORE GENERALE DELLA PAGINA */
+#amazon-webpage-general-container {
+    max-width: 1800px;
+    border: 1px solid black;
+    background-color: rgb(240, 240, 240);
+    padding: 1.5rem 0 0 0;
+}
+
+
+/* ORANGE BANNER */
+
+#orange-banner {
+    color: white;
+    background-color: rgb(248, 100, 1);
+    text-align: center;
+    padding: 0.3rem 0;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* holiday-gift-guides */
+
+#holiday-gift-guides {
+    background-image: url("Amazon Page/assets/images/bg-image.png");
+    background-size: auto;
+    object-fit: cover;
+    background-repeat: repeat;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 4rem 0;
+    margin-bottom: 1.5rem;
+}
+
+#holiday-gift-guides > p:nth-child(1) {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* img-section-card */
+
+#img-section-card {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+#img-section-card > div:nth-child(1) {
+    padding: 0 0 1rem 1rem;
+    margin-left: 0;
+}
+
+.img-containers {
+    max-width: 12rem;
+    height: 15rem;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.img-containers img {
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.5rem 0.5rem rgb(180, 179, 179);
+}    
+
+
+/* SHOP GAMING */
+
+#shop-gaming {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#container-img-shop-gaming {
+    max-width: 100%;
+}
+
+
+/* SHOP AUDIO */
+
+#shop-audio {
+    text-align: center;
+}
+
+/* BACK TO TOP */
+
+#back-to-top {
+    text-align: center;
+    background-color: #4d5370f9;
+    padding: 0.5rem;
+   
+}
+
+#back-to-top a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #2f3243f9;
+    padding: 3rem 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+footer div {
+    width: 10rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
